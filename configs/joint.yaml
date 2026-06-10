@@ -1,0 +1,4 @@
+joint_training: true
+lambda1: 0.05
+lambda2: 0.0001
+delta: 0.10

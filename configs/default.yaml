@@ -1,0 +1,19 @@
+seed: 42
+batch_size: 32
+learning_rate: 0.001
+weight_decay: 0.0001
+num_epochs: 100
+optimizer: adamw
+device: auto
+bands:
+  - [5, 8]
+  - [8, 13]
+  - [13, 30]
+  - [30, 40]
+sampling_rate: 125
+window_seconds: 4.0
+split_ratio:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+log_interval: 10

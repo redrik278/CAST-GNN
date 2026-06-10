@@ -1,0 +1,4 @@
+dataset: milimbeeg
+num_channels: 16
+sampling_rate: 125
+functional_k: 4
